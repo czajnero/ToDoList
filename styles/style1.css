@@ -1,0 +1,31 @@
+body
+{
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("cork-board.png");
+}
+
+nav
+{
+    border-bottom: solid 1px lightgray;
+}
+
+nav input 
+{
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-item
+{
+    width: 50%;
+}
+
+.container
+{
+    max-width: 500px;
+}
+
+a.active
+{
+    font-weight: 700;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>To-do App</title>
+    <meta name="description" content="The best to do website in the entire world." />
+    <meta name="author" content="wiatrgonifale">
+    <meta name="keywords" content="to do, work, notes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/style1.css" type="text/css" />
+    <script src="src/login.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between ">
+            <h2><input type="text" onkeypress="changeName(event)" class="form-control-plaintext" value="To do app"></h2>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card text-center m-3">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" disabled>Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body text-left">
+                <form id="login">
+                    <div class="form-group">
+                        <label for="inputEmail">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" minlength="5" maxlength="255" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password" minlength="5" maxlength="1024" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mt-4">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+    
